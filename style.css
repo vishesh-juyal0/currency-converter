@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #252A34;
+  color: #EAEAEA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #1F232B;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 360px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+h2 {
+  color: #EAEAEA;
+  margin-bottom: 1.8rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+
+.amount input {
+  width: 100%;
+  padding: 0.85rem 0rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 1.5px solid #08D9D6;
+  background-color: #252A34;
+  color: #EAEAEA;
+  outline: none;
+  transition: border-color 0.3s ease;
+  text-align: center;
+}
+
+.amount input:focus {
+  border-color: #08D9D6;
+  background-color: #1F232B;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.6rem 0;
+  gap: 1rem;
+}
+
+.from, .to {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  width: 45%;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  background-color: #252A34;
+  padding: 0.7rem 1rem;
+  border-radius: 12px;
+  border: 1.5px solid #08D9D6;
+}
+
+.selectContainer img {
+  width: 30px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.selectContainer select {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  color: #EAEAEA;
+  font-size: 1rem;
+  font-weight: 600;
+  appearance: none;
+  cursor: pointer;
+  padding-right: 1.8rem;
+  outline: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3csvg width='12' height='7' viewBox='0 0 12 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M1 1L6 6L11 1' stroke='%23EAEAEA' stroke-width='2'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 12px 7px;
+}
+
+select option {
+  background-color: #252A34;
+  color: #EAEAEA;
+}
+
+select option:hover {
+  background-color: #08D9D6;
+  color: #252A34;
+}
+
+.fa-arrow-right-arrow-left {
+  font-size: 1.8rem;
+  color: #EAEAEA;
+  user-select: none;
+}
+
+p {
+  color: #08D9D6;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #08D9D6;
+  color: #252A34;
+  font-weight: 700;
+  font-size: 1.15rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 1.6rem;
+  box-shadow: 0 3px 8px rgba(8, 217, 214, 0.35);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #06b4b2;
+  box-shadow: 0 5px 12px rgba(6, 180, 178, 0.5);
+}
